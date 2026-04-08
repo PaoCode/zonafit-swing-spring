@@ -1,6 +1,6 @@
 # Zona Fit GYM
 Aplicación de escritorio creada con **Java** y la herramienta de **Swing** para mostrar una interfaz sencilla y amigable al usuario.
-esta aplicación permite el registro y la gestión de los clientes de un gimnasio.
+Esta aplicación permite el registro y la gestión de los clientes de un gimnasio.
 
 ## Funcionalidades
 - Lista los clientes registrados
