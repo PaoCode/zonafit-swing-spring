@@ -27,14 +27,16 @@ public class ClienteServicio implements IClienteServicio{
     }
 
     @Override
-    public void guardarCliente(Cliente cliente) {
+    public Cliente guardarCliente(Cliente cliente) {
         clienteRepositorio.save(cliente);
+        return cliente;
 
     }
 
     @Override
     public void eliminarCliente(Cliente cliente) {
         clienteRepositorio.delete(cliente);
+
 
     }
 }

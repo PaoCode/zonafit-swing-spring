@@ -9,7 +9,7 @@ public interface IClienteServicio {
 
     public Cliente buscarClientePorId(Integer idCliente);
 
-    public void guardarCliente(Cliente cliente);
+    public Cliente guardarCliente(Cliente cliente);
 
     public void eliminarCliente(Cliente cliente);
 
